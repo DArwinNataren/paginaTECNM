@@ -2,11 +2,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido a mi página web</title>
+    <title>Conéctate - Tu Red Social</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
             margin: 0;
             padding: 0;
             display: flex;
@@ -15,30 +15,46 @@
             height: 100vh;
         }
         .container {
+            width: 400px;
             text-align: center;
-            padding: 20px;
+            padding: 30px;
             background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #2e8b57;
+            color: #4267B2;
+            font-size: 2.5em;
         }
         p {
-            color: #333;
+            color: #555;
+            font-size: 1.1em;
+        }
+        .signup-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4267B2;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .signup-btn:hover {
+            background-color: #365899;
         }
         a {
             text-decoration: none;
-            color: #2e8b57;
-            font-weight: bold;
+            color: #4267B2;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>¡Bienvenido a mi página web!</h1>
-        <p>Estamos encantados de tenerte aquí. Explora y disfruta de todo lo que tenemos para ofrecer.</p>
-        <p>Si deseas saber más, <a href="#">haz clic aquí</a>.</p>
+        <h1>Conéctate</h1>
+        <p>Únete a millones de usuarios y comienza a compartir momentos, ideas y más. Conéctate con amigos y descubre nuevas experiencias.</p>
+        <p><a href="#" class="signup-btn">Crear una cuenta</a></p>
+        <p>¿Ya tienes una cuenta? <a href="#">Inicia sesión</a></p>
     </div>
 </body>
 </html>
