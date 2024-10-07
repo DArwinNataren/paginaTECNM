@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a mi página web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #2e8b57;
+        }
+        p {
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: #2e8b57;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido a mi página web!</h1>
+        <p>Estamos encantados de tenerte aquí. Explora y disfruta de todo lo que tenemos para ofrecer.</p>
+        <p>Si deseas saber más, <a href="#">haz clic aquí</a>.</p>
+    </div>
+</body>
+</html>
